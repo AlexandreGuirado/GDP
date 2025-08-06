@@ -1,0 +1,42 @@
+﻿@model GDP.Web.Models.DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem-vindo ao Sistema de Gestão</h1>
+    <p>Gerencie seus clientes, produtos e pedidos de forma simples e eficiente.</p>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card text-white bg-primary mb-3 text-center shadow">
+            <div class="card-header"><i class="fas fa-users"></i> Clientes</div>
+            <div class="card-body">
+                <h5 class="card-title display-4">@Model.TotalCustomers</h5>
+                <p class="card-text">Total de clientes cadastrados.</p>
+                <a asp-controller="Customers" asp-action="Index" class="btn btn-light">Gerenciar Clientes <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-success mb-3 text-center shadow">
+            <div class="card-header"><i class="fas fa-boxes-stacked"></i> Produtos</div>
+            <div class="card-body">
+                <h5 class="card-title display-4">@Model.TotalProducts</h5>
+                <p class="card-text">Total de produtos no catálogo.</p>
+                <a asp-controller="Products" asp-action="Index" class="btn btn-light">Gerenciar Produtos <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-info mb-3 text-center shadow">
+            <div class="card-header"><i class="fas fa-shopping-cart"></i> Pedidos</div>
+            <div class="card-body">
+                <h5 class="card-title display-4">@Model.TotalOrders</h5>
+                <p class="card-text">Total de pedidos realizados.</p>
+                <a asp-controller="Orders" asp-action="Index" class="btn btn-light">Ver Pedidos <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

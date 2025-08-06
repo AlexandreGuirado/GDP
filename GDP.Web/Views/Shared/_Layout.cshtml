@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Gestão de Pedidos</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .card-header, .navbar {
+            background: linear-gradient(to right, #004e92, #000428);
+            color: white;
+        }
+
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+
+        /* Estilos do Modo Escuro */
+        body.dark-mode {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        .dark-mode .navbar {
+            background: linear-gradient(to right, #232526, #414345) !important;
+        }
+
+        .dark-mode .card {
+            background-color: #1e1e1e;
+            border-color: #444;
+        }
+
+        .dark-mode .card-header {
+            background: linear-gradient(to right, #333, #555) !important;
+            border-bottom: 1px solid #444;
+        }
+
+        .dark-mode .table {
+            color: #e0e0e0;
+        }
+
+        .dark-mode .table-hover > tbody > tr:hover > * {
+            --bs-table-accent-bg: #444;
+            color: #fff;
+        }
+
+        .dark-mode .form-control, .dark-mode .form-select {
+            background-color: #333;
+            color: #fff;
+            border-color: #555;
+        }
+
+            .dark-mode .form-control:focus, .dark-mode .form-select:focus {
+                background-color: #444;
+                color: #fff;
+                border-color: #007bff;
+                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+            }
+
+        .dark-mode .footer {
+            background-color: #1e1e1e !important;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><i class="fas fa-box-open"></i> Gestão de Pedidos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Customers" asp-action="Index"><i class="fas fa-users"></i> Clientes</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Products" asp-action="Index"><i class="fas fa-boxes-stacked"></i> Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Orders" asp-action="Index"><i class="fas fa-shopping-cart"></i> Pedidos</a></li>
+                    </ul>
+                    <div class="d-flex align-items-center">
+                        <a href="#" id="theme-toggle" class="nav-link" title="Alterar Tema"><i class="fas fa-moon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <partial name="_Alerts" />
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted bg-white">
+        <div class="container d-flex justify-content-center align-items-center">
+            <span>Feito por - AlexandreGuirado / 2025</span>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- ADICIONANDO SCRIPTS DE VALIDAÇÃO -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

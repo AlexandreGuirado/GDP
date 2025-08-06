@@ -1,0 +1,810 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dj_al\\source\\repos\\GDP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.domain\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|solutionrelative:gdp.domain\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB997D75-5855-4F24-8C16-C1875CBA9B51}|GDP.Infra\\GDP.Infra.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.infra\\data\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB997D75-5855-4F24-8C16-C1875CBA9B51}|GDP.Infra\\GDP.Infra.csproj|solutionrelative:gdp.infra\\data\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|solutionrelative:gdp.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753ECFEC-F009-415F-BF58-A9F1699D3160}|GDP.Tests\\GDP.Tests.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.tests\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753ECFEC-F009-415F-BF58-A9F1699D3160}|GDP.Tests\\GDP.Tests.csproj|solutionrelative:gdp.tests\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168E4570-68C0-4E77-8481-1B317668A386}|GDP.Application\\GDP.Application.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.application\\services\\serviceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168E4570-68C0-4E77-8481-1B317668A386}|GDP.Application\\GDP.Application.csproj|solutionrelative:gdp.application\\services\\serviceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB997D75-5855-4F24-8C16-C1875CBA9B51}|GDP.Infra\\GDP.Infra.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.infra\\data\\inicialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB997D75-5855-4F24-8C16-C1875CBA9B51}|GDP.Infra\\GDP.Infra.csproj|solutionrelative:gdp.infra\\data\\inicialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB997D75-5855-4F24-8C16-C1875CBA9B51}|GDP.Infra\\GDP.Infra.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.infra\\data\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB997D75-5855-4F24-8C16-C1875CBA9B51}|GDP.Infra\\GDP.Infra.csproj|solutionrelative:gdp.infra\\data\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|solutionrelative:gdp.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|solutionrelative:gdp.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB997D75-5855-4F24-8C16-C1875CBA9B51}|GDP.Infra\\GDP.Infra.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.infra\\data\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB997D75-5855-4F24-8C16-C1875CBA9B51}|GDP.Infra\\GDP.Infra.csproj|solutionrelative:gdp.infra\\data\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168E4570-68C0-4E77-8481-1B317668A386}|GDP.Application\\GDP.Application.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.application\\interfaces\\iserviceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168E4570-68C0-4E77-8481-1B317668A386}|GDP.Application\\GDP.Application.csproj|solutionrelative:gdp.application\\interfaces\\iserviceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB997D75-5855-4F24-8C16-C1875CBA9B51}|GDP.Infra\\GDP.Infra.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.infra\\data\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB997D75-5855-4F24-8C16-C1875CBA9B51}|GDP.Infra\\GDP.Infra.csproj|solutionrelative:gdp.infra\\data\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168E4570-68C0-4E77-8481-1B317668A386}|GDP.Application\\GDP.Application.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.application\\gdp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{168E4570-68C0-4E77-8481-1B317668A386}|GDP.Application\\GDP.Application.csproj|solutionrelative:gdp.application\\gdp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.domain\\entities\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|solutionrelative:gdp.domain\\entities\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\extensions\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\extensions\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\products\\_productlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\products\\_productlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168E4570-68C0-4E77-8481-1B317668A386}|GDP.Application\\GDP.Application.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.application\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168E4570-68C0-4E77-8481-1B317668A386}|GDP.Application\\GDP.Application.csproj|solutionrelative:gdp.application\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168E4570-68C0-4E77-8481-1B317668A386}|GDP.Application\\GDP.Application.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.application\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168E4570-68C0-4E77-8481-1B317668A386}|GDP.Application\\GDP.Application.csproj|solutionrelative:gdp.application\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|solutionrelative:gdp.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|solutionrelative:gdp.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\models\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\models\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\models\\orderdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\models\\orderdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\models\\createorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\models\\createorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\customers\\_customerlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\customers\\_customerlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488B10BD-36AC-4D8E-B604-DCD43D44D8D9}|GDP.Domain\\GDP.Domain.csproj|solutionrelative:gdp.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|c:\\users\\dj_al\\source\\repos\\gdp\\gdp.web\\views\\shared\\_alerts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE1C285-734A-412F-8BDF-54B0FF3C8C11}|GDP.Web\\GDP.Web.csproj|solutionrelative:gdp.web\\views\\shared\\_alerts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAADgvzwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-06T00:41:42.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Infra\\Data\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "GDP.Infra\\Data\\Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Infra\\Data\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "GDP.Infra\\Data\\Repository\\CustomerRepository.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwE4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:26:44.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T22:56:27.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Customers\\Create.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Customers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Customers\\Create.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Customers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-06T00:10:19.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAADwv44AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-06T00:13:34.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "GDP.Web\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "GDP.Web\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T23:22:28.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceOrder.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Application\\Services\\ServiceOrder.cs",
+              "RelativeDocumentMoniker": "GDP.Application\\Services\\ServiceOrder.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Application\\Services\\ServiceOrder.cs",
+              "RelativeToolTip": "GDP.Application\\Services\\ServiceOrder.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:26:55.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Interfaces\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "GDP.Domain\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Interfaces\\ICustomerRepository.cs",
+              "RelativeToolTip": "GDP.Domain\\Interfaces\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T14:16:36.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "GDP.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "GDP.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:01:39.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Tests\\OrderServiceTests.cs",
+              "RelativeDocumentMoniker": "GDP.Tests\\OrderServiceTests.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Tests\\OrderServiceTests.cs",
+              "RelativeToolTip": "GDP.Tests\\OrderServiceTests.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:19:19.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "GDP.Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "GDP.Domain\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:26:50.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Infra\\Data\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "GDP.Infra\\Data\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Infra\\Data\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "GDP.Infra\\Data\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAEwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:26:46.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "GDP.Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "GDP.Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:56:10.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InicialDb.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Infra\\Data\\InicialDb.cs",
+              "RelativeDocumentMoniker": "GDP.Infra\\Data\\InicialDb.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Infra\\Data\\InicialDb.cs",
+              "RelativeToolTip": "GDP.Infra\\Data\\InicialDb.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T22:59:39.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Infra\\Data\\DbConnection.cs",
+              "RelativeDocumentMoniker": "GDP.Infra\\Data\\DbConnection.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Infra\\Data\\DbConnection.cs",
+              "RelativeToolTip": "GDP.Infra\\Data\\DbConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T02:32:49.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IServiceOrder.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Application\\Interfaces\\IServiceOrder.cs",
+              "RelativeDocumentMoniker": "GDP.Application\\Interfaces\\IServiceOrder.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Application\\Interfaces\\IServiceOrder.cs",
+              "RelativeToolTip": "GDP.Application\\Interfaces\\IServiceOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:27:03.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Infra\\Data\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "GDP.Infra\\Data\\Repository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Infra\\Data\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "GDP.Infra\\Data\\Repository\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:26:45.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GDP.Application",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Application\\GDP.Application.csproj",
+              "RelativeDocumentMoniker": "GDP.Application\\GDP.Application.csproj",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Application\\GDP.Application.csproj",
+              "RelativeToolTip": "GDP.Application\\GDP.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-06T01:01:25.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "GDP.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "GDP.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:01:24.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Entities\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "GDP.Domain\\Entities\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Entities\\OrderStatus.cs",
+              "RelativeToolTip": "GDP.Domain\\Entities\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:26:55.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EnumExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Extensions\\EnumExtensions.cs",
+              "RelativeDocumentMoniker": "GDP.Web\\Extensions\\EnumExtensions.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Extensions\\EnumExtensions.cs",
+              "RelativeToolTip": "GDP.Web\\Extensions\\EnumExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:36:40.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T22:56:35.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ProductListPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Products\\_ProductListPartial.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Products\\_ProductListPartial.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Products\\_ProductListPartial.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Products\\_ProductListPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-06T00:31:04.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "GDP.Web\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "GDP.Web\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T23:24:44.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Application\\DTOs\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "GDP.Application\\DTOs\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Application\\DTOs\\OrderItemDto.cs",
+              "RelativeToolTip": "GDP.Application\\DTOs\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:27:01.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Application\\DTOs\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "GDP.Application\\DTOs\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Application\\DTOs\\CreateOrderDto.cs",
+              "RelativeToolTip": "GDP.Application\\DTOs\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:01:09.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Models\\OrderDetailViewModel.cs",
+              "RelativeDocumentMoniker": "GDP.Web\\Models\\OrderDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Models\\OrderDetailViewModel.cs",
+              "RelativeToolTip": "GDP.Web\\Models\\OrderDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:26:33.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "GDP.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "GDP.Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:01:32.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "GDP.Web\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "GDP.Web\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:26:32.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "GDP.Web\\Models\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "GDP.Web\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:26:30.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Models\\OrderItemViewModel.cs",
+              "RelativeDocumentMoniker": "GDP.Web\\Models\\OrderItemViewModel.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Models\\OrderItemViewModel.cs",
+              "RelativeToolTip": "GDP.Web\\Models\\OrderItemViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:25:11.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "bootstrap.css.map",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "RelativeDocumentMoniker": "GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "RelativeToolTip": "GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACLxQYAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-06T00:24:10.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_CustomerListPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Customers\\_CustomerListPartial.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Customers\\_CustomerListPartial.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Customers\\_CustomerListPartial.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Customers\\_CustomerListPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T23:09:48.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "GDP.Web\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-06T00:02:44.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateOrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Models\\CreateOrderViewModel.cs",
+              "RelativeDocumentMoniker": "GDP.Web\\Models\\CreateOrderViewModel.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Models\\CreateOrderViewModel.cs",
+              "RelativeToolTip": "GDP.Web\\Models\\CreateOrderViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:01:50.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Customers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Customers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Customers\\Edit.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Customers\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-06T00:10:23.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-06T00:02:33.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "GDP.Web\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "GDP.Web\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-05T23:28:02.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "GDP.Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "GDP.Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T00:01:42.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwGYAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T22:56:47.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-06T00:03:23.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GDP.Web\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GDP.Web\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAD4vw4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-06T00:02:30.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeToolTip": "GDP.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-06T00:03:12.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "GDP.Web\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "GDP.Web\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-05T23:29:55.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Program.cs",
+              "RelativeDocumentMoniker": "GDP.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Program.cs",
+              "RelativeToolTip": "GDP.Web\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T22:58:16.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Customers\\Details.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Customers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Customers\\Details.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Customers\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T23:56:03.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GDP.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GDP.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T23:22:24.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_Alerts.cshtml",
+              "DocumentMoniker": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Shared\\_Alerts.cshtml",
+              "RelativeDocumentMoniker": "GDP.Web\\Views\\Shared\\_Alerts.cshtml",
+              "ToolTip": "C:\\Users\\dj_al\\source\\repos\\GDP\\GDP.Web\\Views\\Shared\\_Alerts.cshtml",
+              "RelativeToolTip": "GDP.Web\\Views\\Shared\\_Alerts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T22:56:51.419Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

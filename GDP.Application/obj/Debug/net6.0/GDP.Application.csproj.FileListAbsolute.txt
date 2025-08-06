@@ -1,0 +1,15 @@
+C:\Users\dj_al\source\repos\GDP\GDP.Application\obj\Debug\net6.0\GDP.Application.csproj.AssemblyReference.cache
+C:\Users\dj_al\source\repos\GDP\GDP.Application\obj\Debug\net6.0\GDP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dj_al\source\repos\GDP\GDP.Application\obj\Debug\net6.0\GDP.Application.AssemblyInfoInputs.cache
+C:\Users\dj_al\source\repos\GDP\GDP.Application\obj\Debug\net6.0\GDP.Application.AssemblyInfo.cs
+C:\Users\dj_al\source\repos\GDP\GDP.Application\obj\Debug\net6.0\GDP.Application.csproj.CoreCompileInputs.cache
+C:\Users\dj_al\source\repos\GDP\GDP.Application\bin\Debug\net6.0\GDP.Application.deps.json
+C:\Users\dj_al\source\repos\GDP\GDP.Application\bin\Debug\net6.0\GDP.Application.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Application\bin\Debug\net6.0\GDP.Application.pdb
+C:\Users\dj_al\source\repos\GDP\GDP.Application\bin\Debug\net6.0\GDP.Domain.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Application\bin\Debug\net6.0\GDP.Domain.pdb
+C:\Users\dj_al\source\repos\GDP\GDP.Application\obj\Debug\net6.0\GDP.Appl.22BF4E40.Up2Date
+C:\Users\dj_al\source\repos\GDP\GDP.Application\obj\Debug\net6.0\GDP.Application.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Application\obj\Debug\net6.0\refint\GDP.Application.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Application\obj\Debug\net6.0\GDP.Application.pdb
+C:\Users\dj_al\source\repos\GDP\GDP.Application\obj\Debug\net6.0\ref\GDP.Application.dll

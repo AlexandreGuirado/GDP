@@ -1,0 +1,26 @@
+﻿@model GDP.Domain.Entities.Customer
+@{
+    ViewData["Title"] = "Detalhes do Cliente";
+}
+
+<h1>@ViewData["Title"]</h1>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Name)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Email)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Phone)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Phone)</dd>
+
+        <dt class="col-sm-3">Data de Cadastro</dt>
+        <dd class="col-sm-9">@Model.RegistrationDate.ToString("g")</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning"><i class="fas fa-edit"></i> Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar para a Lista</a>
+</div>

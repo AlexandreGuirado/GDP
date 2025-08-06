@@ -1,0 +1,15 @@
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\obj\Debug\net6.0\GDP.Infra.csproj.AssemblyReference.cache
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\obj\Debug\net6.0\GDP.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\obj\Debug\net6.0\GDP.Infra.AssemblyInfoInputs.cache
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\obj\Debug\net6.0\GDP.Infra.AssemblyInfo.cs
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\obj\Debug\net6.0\GDP.Infra.csproj.CoreCompileInputs.cache
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\bin\Debug\net6.0\GDP.Infra.deps.json
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\bin\Debug\net6.0\GDP.Infra.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\bin\Debug\net6.0\GDP.Infra.pdb
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\bin\Debug\net6.0\GDP.Domain.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\bin\Debug\net6.0\GDP.Domain.pdb
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\obj\Debug\net6.0\GDP.Infra.csproj.Up2Date
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\obj\Debug\net6.0\GDP.Infra.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\obj\Debug\net6.0\refint\GDP.Infra.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\obj\Debug\net6.0\GDP.Infra.pdb
+C:\Users\dj_al\source\repos\GDP\GDP.Infra\obj\Debug\net6.0\ref\GDP.Infra.dll

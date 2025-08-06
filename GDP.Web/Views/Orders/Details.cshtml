@@ -1,0 +1,83 @@
+﻿@model GDP.Web.Models.OrderDetailViewModel
+@using GDP.Web.Extensions;
+@{
+    ViewData["Title"] = $"Detalhes do Pedido #{Model.Order.Id}";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-8">
+        <h4>Itens do Pedido</h4>
+        <table class="table">
+            <thead class="table-light">
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unitário</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Order.Items)
+                {
+                    <tr>
+                        <td>@item.Product?.Name</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.UnitPrice.ToString("C")</td>
+                        <td>@((item.Quantity * item.UnitPrice).ToString("C"))</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="text-end fw-bold">TOTAL</td>
+                    <td class="fw-bold">@Model.Order.TotalAmount.ToString("C")</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-header text-white">Informações do Pedido</div>
+            <div class="card-body">
+                <p><strong>Cliente:</strong> @Model.Order.Customer?.Name</p>
+                <p><strong>Email:</strong> @Model.Order.Customer?.Email</p>
+                <p><strong>Data:</strong> @Model.Order.OrderDate.ToString("g")</p>
+                <p>
+                    <strong>Status Atual:</strong>
+                    @{
+                        if (Enum.TryParse<GDP.Domain.Enums.OrderStatus>(Model.Order.Status, out var statusEnum))
+                        {
+                            <span class="badge bg-primary">@statusEnum.GetDisplayName()</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">@Model.Order.Status</span>
+                        }
+                    }
+                </p>
+                <hr />
+                <form asp-action="UpdateStatus" method="post">
+                    <input type="hidden" name="orderId" value="@Model.Order.Id" />
+                    <div class="form-group">
+                        <label asp-for="NewStatus" class="form-label">Alterar Status</label>
+                        <select asp-for="NewStatus" asp-items="ViewBag.StatusOptions" class="form-select"></select>
+                    </div>
+                    <button type="submit" class="btn btn-success mt-2 w-100">Atualizar</button>
+                </form>
+
+                @if (Model.Order.Status != GDP.Domain.Enums.OrderStatus.Cancelled.ToString() && Model.Order.Status != GDP.Domain.Enums.OrderStatus.Completed.ToString())
+                {
+                    <hr />
+                    <form asp-action="Cancel" method="post" onsubmit="return confirm('Tem certeza que deseja cancelar este pedido?');">
+                        <input type="hidden" name="orderId" value="@Model.Order.Id" />
+                        <button type="submit" class="btn btn-danger w-100">Cancelar Pedido</button>
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<a asp-action="Index" class="btn btn-secondary mt-3">Voltar para a Lista</a>

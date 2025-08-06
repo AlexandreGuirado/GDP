@@ -1,0 +1,11 @@
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\obj\Debug\net6.0\GDP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\obj\Debug\net6.0\GDP.Domain.AssemblyInfoInputs.cache
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\obj\Debug\net6.0\GDP.Domain.AssemblyInfo.cs
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\obj\Debug\net6.0\GDP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\bin\Debug\net6.0\GDP.Domain.deps.json
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\bin\Debug\net6.0\GDP.Domain.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\bin\Debug\net6.0\GDP.Domain.pdb
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\obj\Debug\net6.0\GDP.Domain.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\obj\Debug\net6.0\refint\GDP.Domain.dll
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\obj\Debug\net6.0\GDP.Domain.pdb
+C:\Users\dj_al\source\repos\GDP\GDP.Domain\obj\Debug\net6.0\ref\GDP.Domain.dll

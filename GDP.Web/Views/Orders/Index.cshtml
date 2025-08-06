@@ -1,0 +1,146 @@
+﻿@model IEnumerable<GDP.Domain.Entities.Order>
+@using GDP.Web.Extensions;
+@{
+    ViewData["Title"] = "Gerenciamento de Pedidos";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h1 class="display-6">@ViewData["Title"]</h1>
+    <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i> Novo Pedido</a>
+</div>
+
+<div class="card shadow-sm mb-4">
+    <div class="card-header text-white">
+        <i class="fas fa-filter"></i> Filtros
+    </div>
+    <div class="card-body">
+        <form asp-action="Index" method="get">
+            <div class="row g-3 align-items-center">
+                <div class="col-md-5">
+                    <select name="customerIdFilter" class="form-select" asp-items="@(ViewData["Customers"] as SelectList)">
+                        <option value="">-- Todos os Clientes --</option>
+                    </select>
+                </div>
+                <div class="col-md-5">
+                    <select name="statusFilter" class="form-select" asp-items="@(ViewData["Statuses"] as SelectList)">
+                        <option value="">-- Todos os Status --</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-info w-100"><i class="fas fa-search"></i> Buscar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <table class="table table-hover align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th onclick="sortTableById()" style="cursor: pointer;">
+                        ID <span id="idSortIcon">▲</span>
+                    </th>
+                    <th>Cliente</th>
+                    <th>Data</th>
+                    <th>Valor Total</th>
+                    <th>Status</th>
+                    <th class="text-end">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>#@item.Id.ToString("D4")</td>
+                        <td>@item.Customer?.Name</td>
+                        <td>@item.OrderDate.ToString("g")</td>
+                        <td>@item.TotalAmount.ToString("C")</td>
+                        <td>
+                            @{
+                                if (Enum.TryParse<GDP.Domain.Enums.OrderStatus>(item.Status, out var statusEnum))
+                                {
+                                    <span class="badge bg-primary">@statusEnum.GetDisplayName()</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-secondary">@item.Status</span>
+                                }
+                            }
+                        </td>
+                        <td class="text-end">
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-secondary" title="Ver Detalhes"><i class="fas fa-info-circle"></i></a>
+
+                            @if (item.Status != GDP.Domain.Enums.OrderStatus.Cancelled.ToString() && item.Status != GDP.Domain.Enums.OrderStatus.Completed.ToString())
+                            {
+                                <button type="button" class="btn btn-sm btn-danger cancel-btn" data-id="@item.Id" title="Cancelar Pedido">
+                                    <i class="fas fa-times-circle"></i>
+                                </button>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal Cancelamento -->
+<div class="modal fade" id="confirmCancelModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">Confirmar Cancelamento</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Você tem certeza que deseja cancelar este pedido?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                <form id="cancelForm" method="post">
+                    <button type="submit" class="btn btn-danger">Confirmar Cancelamento</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var confirmCancelModal = new bootstrap.Modal(document.getElementById('confirmCancelModal'));
+
+            $('.cancel-btn').on('click', function () {
+                const orderId = $(this).data('id');
+                const actionUrl = '@Url.Action("Cancel", "Orders")?orderId=' + orderId;
+                $('#cancelForm').attr('action', actionUrl);
+                confirmCancelModal.show();
+            });
+        });
+
+        let idAsc = true;
+
+        function sortTableById() {
+            const tbody = document.querySelector("table tbody");
+            const rows = Array.from(tbody.querySelectorAll("tr"));
+
+            rows.sort((a, b) => {
+                const idA = parseInt(a.cells[0].innerText.replace("#","").trim());
+                const idB = parseInt(b.cells[0].innerText.replace("#","").trim());
+                return idAsc ? idA - idB : idB - idA;
+            });
+
+            // Alterna a direção
+            idAsc = !idAsc;
+
+            // Atualiza ícone
+            const icon = document.getElementById("idSortIcon");
+            if (icon) icon.textContent = idAsc ? '▲' : '▼';
+
+            // Reinsere as linhas ordenadas no tbody
+            rows.forEach(row => tbody.appendChild(row));
+        }
+    </script>
+}

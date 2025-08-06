@@ -1,0 +1,147 @@
+﻿@model GDP.Web.Models.CreateOrderViewModel
+
+@{
+    ViewData["Title"] = "Criar Novo Pedido";
+}
+
+<h1 class="display-6">@ViewData["Title"]</h1>
+<hr />
+
+<form asp-action="Create" method="post" id="order-form">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group mb-3">
+                <label asp-for="CustomerId" class="control-label">Cliente</label>
+                <select asp-for="CustomerId" class="form-control" asp-items="Model.Customers">
+                    <option value="">-- Selecione um Cliente --</option>
+                </select>
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <h4>Adicionar Produtos</h4>
+    <div class="row mb-3 align-items-end">
+        <div class="col-md-5">
+            <label for="product-selector">Produto</label>
+            <select id="product-selector" class="form-select">
+                <option value="">-- Selecione um Produto --</option>
+                @foreach (var product in Model.AvailableProducts!.Where(p => p.Stock > 0))
+                {
+                    <option value="@product.Id" data-price="@product.Price.ToString("F2")" data-name="@product.Name" data-stock="@product.Stock">
+                        @product.Name (Estoque: @product.Stock)
+                    </option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="quantity-input">Quantidade</label>
+            <input type="number" id="quantity-input" class="form-control" value="1" min="1" />
+        </div>
+        <div class="col-md-3">
+            <button type="button" id="add-item-btn" class="btn btn-primary w-100"><i class="fas fa-plus"></i> Adicionar ao Pedido</button>
+        </div>
+    </div>
+
+    <h4>Itens do Pedido</h4>
+    <table class="table">
+        <thead class="table-light">
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço Unitário</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="order-items-table">
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-end"><strong>Total Geral</strong></td>
+                <td id="grand-total" class="fw-bold">R$ 0,00</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="form-group mt-3">
+        <input type="submit" value="Criar Pedido" class="btn btn-success" />
+        <a asp-action="Index" class="btn btn-secondary">Voltar para a Lista</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function () {
+            let itemIndex = 0;
+
+            $("#add-item-btn").click(function () {
+                const productSelector = $("#product-selector");
+                const selectedOption = productSelector.find("option:selected");
+                const productId = selectedOption.val();
+                const quantity = parseInt($("#quantity-input").val());
+
+                if (!productId || quantity <= 0) {
+                    alert("Por favor, selecione um produto e informe uma quantidade válida.");
+                    return;
+                }
+
+                if ($(`#order-items-table tr[data-product-id='${productId}']`).length > 0) {
+                    alert("Este produto já está no pedido. Remova-o para adicionar com uma nova quantidade.");
+                    return;
+                }
+
+                const productName = selectedOption.data("name");
+                const unitPrice = parseFloat(selectedOption.data("price"));
+                const stock = parseInt(selectedOption.data("stock"));
+
+                if (quantity > stock) {
+                    alert(`Não é possível adicionar ${quantity} de ${productName}. Apenas ${stock} disponíveis em estoque.`);
+                    return;
+                }
+
+                const totalItem = (quantity * unitPrice);
+
+                const newRow = `
+                    <tr data-product-id="${productId}">
+                        <td>
+                            ${productName}
+                            <input type="hidden" name="Items[${itemIndex}].ProductId" value="${productId}" />
+                        </td>
+                        <td>
+                            ${quantity}
+                            <input type="hidden" name="Items[${itemIndex}].Quantity" value="${quantity}" />
+                        </td>
+                        <td>${unitPrice.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</td>
+                        <td class="item-total-value" data-value="${totalItem}">${totalItem.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</td>
+                        <td><button type="button" class="btn btn-danger btn-sm remove-item-btn"><i class="fas fa-trash"></i></button></td>
+                    </tr>
+                `;
+
+                $("#order-items-table").append(newRow);
+                itemIndex++;
+                updateGrandTotal();
+            });
+
+            $("#order-items-table").on("click", ".remove-item-btn", function () {
+                $(this).closest("tr").remove();
+                updateGrandTotal();
+            });
+
+            function updateGrandTotal() {
+                let grandTotal = 0;
+                $(".item-total-value").each(function () {
+                    grandTotal += parseFloat($(this).data("value"));
+                });
+                $("#grand-total").text(grandTotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+            }
+        });
+    </script>
+}

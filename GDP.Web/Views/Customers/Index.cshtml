@@ -1,0 +1,92 @@
+﻿@model IEnumerable<GDP.Domain.Entities.Customer>
+@{
+    ViewData["Title"] = "Gerenciamento de Clientes";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h1 class="display-6">@ViewData["Title"]</h1>
+    <a asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i> Novo Cliente</a>
+</div>
+
+<div class="card shadow-sm mb-4">
+    <div class="card-header text-white">
+        <i class="fas fa-filter"></i> Filtros
+    </div>
+    <div class="card-body">
+        <form id="customer-filter-form">
+            <div class="row g-3 align-items-center">
+                <div class="col-md-6">
+                    <input type="text" name="nameFilter" id="nameFilter" value="@ViewData["NameFilter"]" class="form-control" placeholder="Filtrar por nome..." />
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="emailFilter" id="emailFilter" value="@ViewData["EmailFilter"]" class="form-control" placeholder="Filtrar por e-mail..." />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <div id="customer-list-container">
+            <partial name="_CustomerListPartial" model="Model" />
+        </div>
+    </div>
+</div>
+
+<!-- Modal Cancelamento -->
+<div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">Confirmar Exclusão</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Você tem certeza que deseja excluir este item? Esta ação não pode ser desfeita.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <form id="deleteForm" method="post">
+                    <button type="submit" class="btn btn-danger">Confirmar Exclusão</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            let debounceTimeout = null;
+            function applyFilter() {
+                const form = $("#customer-filter-form");
+                $.ajax({
+                    url: '@Url.Action("Index", "Customers")',
+                    type: 'GET',
+                    data: form.serialize(),
+                    success: function (result) {
+                        $('#customer-list-container').html(result);
+                    },
+                    error: function () {
+                        alert('Ocorreu um erro ao aplicar o filtro.');
+                    }
+                });
+            }
+            $('#nameFilter, #emailFilter').on('keyup', function () {
+                clearTimeout(debounceTimeout);
+                debounceTimeout = setTimeout(applyFilter, 500);
+            });
+
+            var confirmDeleteModal = new bootstrap.Modal(document.getElementById('confirmDeleteModal'));
+
+            $('#customer-list-container').on('click', '.delete-btn', function () {
+                const customerId = $(this).data('id');
+                const actionUrl = '@Url.Action("Delete", "Customers")/' + customerId;
+                $('#deleteForm').attr('action', actionUrl);
+                confirmDeleteModal.show();
+            });
+        });
+    </script>
+}
