@@ -67,7 +67,7 @@ Abaixo segue algumas imagens do projeto:
 <img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/3f085b49-fd74-4bd8-ab4e-645182009855" />
 <img width="1918" height="919" alt="image" src="https://github.com/user-attachments/assets/1ea6351d-8c76-4528-aee8-379176725a18" />
 <img width="1916" height="918" alt="image" src="https://github.com/user-attachments/assets/dc1475f6-7d30-4e62-b019-9b02429ad91f" />
-<img width="1920" height="921" alt="image" src="https://github.com/user-attachments/assets/2a2e0f91-afc2-4040-87a1-e1f474812c36" />
+<img width="1920" height="921" alt="image" src="https://github.com/user-attachments/assets/7d442c9a-17b8-4c3d-aa05-79a789adc24e" />
 <img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/e12371e5-a26c-4b9b-a587-67d7c912e78c" />
 <img width="1920" height="921" alt="image" src="https://github.com/user-attachments/assets/fc405943-941b-4d1a-a7a2-58edbaf37b29" />
 <img width="1918" height="915" alt="image" src="https://github.com/user-attachments/assets/528233bc-3530-4a76-a14f-8306a7b26e1e" />
