@@ -1,4 +1,5 @@
 **Gerenciamento de Pedidos**
+
 Este projeto é uma aplicação web completa e robusta desenvolvida para simplificar o gerenciamento de clientes, produtos e pedidos em uma pequena loja. Construído do zero, ele demonstra um profundo conhecimento em desenvolvimento full-stack, seguindo as melhores práticas e especificações técnicas.
 
 **Tecnologias Utilizadas**
